@@ -1,0 +1,19 @@
+carpeta public --> conservamos todos los archivos
+carpeta src --> eliminar --> app.test.js
+                         --> logo.svg
+                         --> reportWebVitals.js
+                         --> setupTest.js
+
+
+al eliminar los archivos anteriores debemos realizar ciertas mo dificaciones
+
+--> App.js
+quitamos toda la estructura de la aplicacion (App.js)
+eliminamos el import del logo.svg
+
+--> index.js
+se elimina 
+(1) import reportWebVitals from './reportWebVitals';
+(2) reportWebVitals();
+
+-->App.css se elimina todo
